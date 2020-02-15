@@ -1,0 +1,6 @@
+.page-wrapper {
+  background-color: var(--white);
+  position: relative;
+  padding-top: 60px;
+  z-index: 99;
+}

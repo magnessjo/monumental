@@ -1,0 +1,24 @@
+/* Dependencies */
+
+@import './dependencies/root.css';
+@import './dependencies/queries.css';
+@import './dependencies/reset.css';
+
+/* Components */
+
+@import './components/header.css';
+@import './components/footer.css';
+@import './components/stage.css';
+@import './components/mission.css';
+@import './components/advantages.css';
+@import './components/services.css';
+@import './components/properties.css';
+@import './components/contact.css';
+@import './components/culture.css';
+
+/* Common */
+
+@import './common/lock.css';
+@import './common/fonts.css';
+@import './common/cta.css';
+@import './common/page-wrapper.css';

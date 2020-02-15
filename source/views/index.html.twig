@@ -1,0 +1,17 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+  <section id="stageone" version="contract">
+    <div style="background-image: url(/images/stages/stage.jpg)">
+      <div class="logo-background"></div>
+      <img src="/images/logo-full-white.svg" aria-hidden />
+    </div>
+  </section>
+
+  <div class="page-wrapper">
+    {% include 'components/mission.twig' %}
+    {% include 'components/advantages.twig' %}
+    {% include 'components/culture.twig' %}
+    {% include 'components/contact.twig' %}
+  </div>
+{% endblock %}

@@ -1,0 +1,15 @@
+footer {
+  padding-top: 20px;
+  display: block;
+  background-color: var(--black);
+  position: relative;
+
+  & .lock {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  & img {
+    width: 280px;
+  }
+}
