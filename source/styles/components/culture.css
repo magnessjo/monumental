@@ -5,13 +5,15 @@
 
   & .person {
     overflow: hidden;
-    margin-bottom: 40px;
 
     & img {
-      width: 80%;
       max-width: 600px;
       margin: 0 auto 20px auto;
       display: block;
+
+      @media (--tablet-min) {
+        max-width: 80%;
+      }
     }
 
     & ul {
